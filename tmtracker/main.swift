@@ -1,10 +1,10 @@
 import Foundation
 
-print("Hello, World!")
+let pathArg = CommandLine.arguments[1]
 
 let utils = Utils()
 
-let path = NSString(string: "~/MyDev").expandingTildeInPath
+let path = NSString(string: pathArg).expandingTildeInPath
 let fsEventsService = FSEventsService(pathsToWatch: [path]) { event in
     if utils.isDir(event: event)
                && utils.isCreated(event: event)
@@ -15,6 +15,9 @@ let fsEventsService = FSEventsService(pathsToWatch: [path]) { event in
         utils.shell("tmutil", "addexclusion", event.path)
     }
 }
+
+print("Start tracking \(pathArg)")
+
 fsEventsService.start()
 CFRunLoopRun()
 fsEventsService.stop()

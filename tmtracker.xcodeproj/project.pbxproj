@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		03A0F3332757642F008BB8A8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0F3322757642F008BB8A8 /* main.swift */; };
 		03A0F33A2757666C008BB8A8 /* FSEventsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0F3392757666C008BB8A8 /* FSEventsService.swift */; };
+		692350B8A6E8720E3CC353B0 /* readme.md in Sources */ = {isa = PBXBuildFile; fileRef = 6923505732DAACC7511A8041 /* readme.md */; };
 		69235155807A32D242A9301A /* FSEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69235819900EAD56C7EF6201 /* FSEvent.swift */; };
 		6923599E86C3B44764CD536B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69235CAC3D5DDEC484E3EC63 /* Utils.swift */; };
 /* End PBXBuildFile section */
@@ -29,6 +30,7 @@
 		03A0F32F2757642F008BB8A8 /* tmtracker */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tmtracker; sourceTree = BUILT_PRODUCTS_DIR; };
 		03A0F3322757642F008BB8A8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		03A0F3392757666C008BB8A8 /* FSEventsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSEventsService.swift; sourceTree = "<group>"; };
+		6923505732DAACC7511A8041 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		69235819900EAD56C7EF6201 /* FSEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSEvent.swift; sourceTree = "<group>"; };
 		69235CAC3D5DDEC484E3EC63 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		69235EF0CBBF917CC2E37444 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 				03A0F3312757642F008BB8A8 /* tmtracker */,
 				03A0F3302757642F008BB8A8 /* Products */,
 				69235EF0CBBF917CC2E37444 /* .gitignore */,
+				6923505732DAACC7511A8041 /* readme.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,6 +138,7 @@
 				03A0F33A2757666C008BB8A8 /* FSEventsService.swift in Sources */,
 				69235155807A32D242A9301A /* FSEvent.swift in Sources */,
 				6923599E86C3B44764CD536B /* Utils.swift in Sources */,
+				692350B8A6E8720E3CC353B0 /* readme.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

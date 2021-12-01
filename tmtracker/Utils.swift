@@ -3,7 +3,7 @@ import Foundation
 class Utils {
 
     func isTrash(event: FSEvent) -> Bool {
-        event.path.contains("/node_modules") || event.path.hasSuffix("/ccc1ccc")
+        event.path.hasSuffix("/node_modules") || event.path.hasSuffix("/ccc1ccc")
     }
 
     func isDir(event: FSEvent) -> Bool {
